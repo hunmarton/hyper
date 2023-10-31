@@ -1,0 +1,182 @@
+
+/* Custom brand colors */
+
+$sabee-gray-100: #f9f9fa;
+$sabee-gray-200: #ebeef0;
+$sabee-gray-300: #dde1e5;
+$sabee-gray-400: #ced4d8;
+$sabee-gray-500: #95a1ac;
+$sabee-gray-600: #7b8b98;
+$sabee-gray-700: #5f6e7a;
+$sabee-gray-800: #30373D;
+$sabee-gray-900: #384047;
+// brand end gray-color-variables
+
+// ====== Dark Mode Gray Color ======== //
+// brand gray-dark-color-variables
+$sabee-gray-dark-100: #424F5B;
+$sabee-gray-dark-200: $sabee-gray-900;
+$sabee-gray-dark-300: #464f5b;
+$sabee-gray-dark-400: $sabee-gray-600;
+$sabee-gray-dark-500: #AAB4BD;
+$sabee-gray-dark-600: $sabee-gray-400;
+$sabee-gray-dark-700: $sabee-gray-300;
+$sabee-gray-dark-800: #e3eaef;
+$sabee-gray-dark-900: $sabee-gray-200;
+
+$sabee-grays: (
+    "100":     $sabee-gray-100,
+    "200":     $sabee-gray-200,
+    "300":     $sabee-gray-300,
+    "400":     $sabee-gray-400,
+    "500":     $sabee-gray-500,
+    "600":     $sabee-gray-600,
+    "700":     $sabee-gray-700,
+    "800":     $sabee-gray-800,
+    "900":     $sabee-gray-900,
+);
+
+$sabee-dark-grays: (
+        "100":     $sabee-gray-dark-100,
+        "200":     $sabee-gray-dark-200,
+        "300":     $sabee-gray-dark-300,
+        "400":     $sabee-gray-dark-400,
+        "500":     $sabee-gray-dark-500,
+        "600":     $sabee-gray-dark-600,
+        "700":     $sabee-gray-dark-700,
+        "800":     $sabee-gray-dark-800,
+        "900":     $sabee-gray-dark-900,
+);
+
+// brand color-variables
+$sabee-blue:            #008eff;
+$sabee-blue-darker:     #0079d9;
+$sabee-red:             #ff3c49;
+$sabee-red-darker:      #da000f;
+$sabee-yellow:          #f5e400;
+$sabee-yellow-darker:   #d5c700;
+$sabee-green:           #00b850;
+$sabee-green-darker:    #009e45;
+$sabee-cyan:            #0cbfe8;
+$sabee-cyan-darker:     #008fd3;
+// brand end color-variables
+
+// custom theme colors
+
+$custom-gray-010:    #f9f9fd;
+$custom-gray-020:    #f7f9fb;
+$custom-gray-030:    #f1f1f1;
+$custom-gray-040:    #e3eaef;
+$custom-gray-050:    #aab8c5;
+$custom-gray-060:    #9AA1AB; //rgb(154, 161, 171)
+$custom-gray-070:    #8391a2;
+$custom-gray-080:    #4a5764;
+$custom-gray-090:    #464f5b;
+$custom-gray-100:    #45515d;
+$custom-gray-110:    #444e5a;
+$custom-gray-120:    #414d5d;
+$custom-gray-130:    #404954;
+$custom-gray-140:    #3e4853;
+$custom-gray-150:    #3c4655;
+$custom-gray-160:    #3a444e;
+$custom-gray-170:    #37404a;
+$custom-gray-180:    #313942; //rgb(49, 57, 66)
+
+$custom-blue:       #bccee4;
+
+$custom-cyan:       #cedce4;
+
+$custom-yellow:     #fcf8e3;
+
+$custom-orange:     #FEF5E4;
+
+$custom-purple-100:   #8F75DA;
+$custom-purple-200:   #8669ed;
+$custom-purple-300:   #5e30c1;
+
+$custom-indigo:     #697ded;
+
+
+$custom-grays: (
+    "010":  $custom-gray-010,
+    "020":  $custom-gray-020,
+    "030":  $custom-gray-030,
+    "040":  $custom-gray-040,
+    "050":  $custom-gray-050,
+    "060":  $custom-gray-060,
+    "070":  $custom-gray-070,
+    "080":  $custom-gray-080,
+    "090":  $custom-gray-090,
+    "100":  $custom-gray-100,
+    "110":  $custom-gray-110,
+    "120":  $custom-gray-120,
+    "130":  $custom-gray-130,
+    "140":  $custom-gray-140,
+    "150":  $custom-gray-150,
+    "160":  $custom-gray-160,
+    "170":  $custom-gray-170,
+    "180":  $custom-gray-180
+);
+
+$custom-colors: (
+    "100": $custom-blue,
+    "200": $custom-cyan,
+    "300": $custom-yellow,
+    "400": $custom-orange,
+    "500": $custom-purple-100,
+    "600": $custom-purple-200,
+    "700": $custom-purple-300,
+    "800": $custom-indigo
+);
+
+// Dark Theme Color Map
+
+$dark-grays: (
+    "100": map-get($custom-grays, "130"),
+    "200": map-get($custom-grays, "170"),
+    "300": map-get($custom-grays, "090"),
+    "400": map-get($custom-grays, "070"),
+    "500": map-get($custom-grays, "050"),
+    "600": map-get($grays, "400"),
+    "700": map-get($grays, "300"),
+    "800": map-get($custom-grays, "040"),
+    "900": map-get($custom-grays, "030")
+);
+
+$dark-theme-colors-hyper: (
+        "primary":    $primary,
+        "secondary":  map-get($dark-grays, "600"),
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      map-get($dark-grays, "300"),
+        "dark":       map-get($dark-grays, "900")
+);
+
+
+$colorList-bootstrap: (
+    "blues":       $blues,
+    "indigos":     $indigos,
+    "purples":     $purples,
+    "pinks":       $pinks,
+    "reds":        $reds,
+    "oranges":     $oranges,
+    "yellows":     $yellows,
+    "greens":      $greens,
+    "teals":       $teals,
+    "cyans":       $cyans
+);
+
+$grays-bootstrap: $grays;
+
+$theme-colors-bootstrap: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
