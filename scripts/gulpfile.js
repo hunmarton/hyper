@@ -256,7 +256,7 @@ exports.build = series(
 exports.docs = function () {
     browsersync.init({
         server: {
-            baseDir: "docs",
+            baseDir: "test",
         },
     });
 };
