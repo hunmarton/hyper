@@ -306,7 +306,7 @@ html[data-bs-theme=dark][data-topbar-color=dark] {
   --ct-dark-border-subtle: #95a1ac;
   --ct-white-rgb: 255, 255, 255;
   --ct-black-rgb: 0, 0, 0;
-  --ct-font-sans-serif: "Nunito", sans-serif;
+  --ct-font-sans-serif: "ProximaNova", sans-serif;
   --ct-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --ct-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --ct-body-font-family: var(--ct-font-sans-serif);
@@ -15865,6 +15865,30 @@ html[data-layout=topnav] #topnav-color {
   font-family: "Nunito";
   src: url("../fonts/Nunito-Bold.eot");
   src: local("Nunito Bold"), local("Nunito-Bold"), url("../fonts/Nunito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-Bold.woff") format("woff"), url("../fonts/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito-Bold.svg#Roboto") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova-Semibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova-Bold.otf");
   font-weight: 700;
   font-style: normal;
 }
