@@ -247,6 +247,7 @@ exports.default = series(
 exports.build = series(
     // input,
     clean,
+    html,
     vendor,
     parallel(data, fonts, images, javascript, scss, icons)
 );
