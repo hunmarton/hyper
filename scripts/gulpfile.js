@@ -62,7 +62,8 @@ var demoPath = "saas";
 
 
 const clean = function (done) {
-    del.sync(paths.baseDist, done());
+    del.sync(paths.baseDist, { force: true });
+    done();
 };
 
 const vendor = function () {
